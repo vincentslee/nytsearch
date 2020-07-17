@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- link to BootStrap -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css">
+    <title>NY-Times Search</title>
+  </head>
+  <body>
+    <div class="jumbotron jumbotron-fluid" id="header">
+        <div class="container">
+          <h1 class="display-4">New York Times Search</h1>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header">
+            Search Parameter
+        </div>
+        <div class="card-body">
+          <div class="form-group commonClass">
+            <label for="exampleFormControlTextarea1" >Search Term:</label>
+            <input class="form-control" type="text" id="tagTerms" placeholder=""> <br>
+            <label for="exampleFormControlTextarea2">Number of Records to Retrieve:</label>
+            <input class="form-control" type="number" id="numRec" placeholder=""> <br>
+            <label for="exampleFormControlTextarea3" >Start Year (Optional):</label>
+            <input class="form-control" type="text" id="start-Y" placeholder=""> <br> 
+            <label for="exampleFormControlTextarea4" >End Year (Optional):</label>
+            <input class="form-control" type="text" id="end-Y" placeholder=""> <br>
+        </div>
+          <a href="#" id="search" class="btn btn-secondary">Search</a>
+          <a href="#" id="clear" class="btn btn-secondary">Clear Results</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+            Top Articles
+        </div>
+        <div class="card-body" id="article-body">
+          
+        </div>
+      </div>
+      <div id="footer" class="card-footer text-muted">
+        Made with lots and lots of love
+      </div>
+  </body>
+</html>
+
+
+
+
+

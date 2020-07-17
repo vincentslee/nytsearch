@@ -1,0 +1,18 @@
+body{
+    background-color: cornsilk;
+}
+.card{
+    margin-left:110px;
+    margin-right:110px;
+    margin-top: 40px;
+}
+#header{
+    text-align: center;
+}
+#footer{
+    text-align:center;
+}
+.card-header{
+    font-size:24px;
+    
+}
